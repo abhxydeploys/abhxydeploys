@@ -2,7 +2,7 @@
 
 ![Image for Banner](https://media.licdn.com/dms/image/v2/D5616AQEsONB9tcHb2g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1736580327716?e=1756339200&v=beta&t=FfJ5lITaauIfNRqPLRCKOJOiSF83qq0UcO_N6MblYgg)
 
-Hello!👋 My name is Abhay. I am from Amity University Online pusuing Bachelors in Computers Applications.
+Hello!👋 My name is Abhay. I am from Amity University Online pursuing Bachelors in Computers Applications.
 
 I have a huge interest in ux and ui design as well coding! Currently studying react js, spring boot, graph ql and being working as a UI developer in HCLTech.
 
