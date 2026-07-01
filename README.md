@@ -30,7 +30,7 @@ Design
 
 - Email: [hey.itzabhay@gmail.com](mailto:hey.itzabhay@gmail.com)
 - LinkedIn: [itzabhay](https://www.linkedin.com/in/itzabhay)
-- Instagram: [itxabh](https://www.instagram.com/itxabh)
+- Instagram: [itxabh/reacctdevv](https://www.instagram.com/reacctdevv/)
 - GitHub: [abhxydeploys](https://github.com/abhxydeploys)
 
 ### GitHub Pages Setup
