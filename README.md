@@ -9,9 +9,9 @@ personal portfolio website.
 
 ### Portfolio
 
-- Live source: `src/App.tsx`, `src/styles.css`, `public/ppic.png`
+- Live source: `app.html`, `src/App.tsx`, `src/styles.css`, `public/ppic.png`
 - Stack: React, TypeScript, and Vite
-- Deployment target: GitHub Pages through GitHub Actions
+- Deployment target: GitHub Pages from the `main` branch root
 
 ### Current Focus
 
@@ -37,7 +37,9 @@ Design
 
 In GitHub, open this repository's **Settings -> Pages** and set:
 
-- Source: **GitHub Actions**
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/(root)**
 
-After pushing to `main`, the workflow in `.github/workflows/deploy.yml` builds
-the app and publishes the `dist` folder.
+For deployment, run `npm run build:pages`, commit the generated root files, then
+push `main`.
