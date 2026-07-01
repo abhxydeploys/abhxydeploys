@@ -1,21 +1,43 @@
-## Hi there👋, Welcome!
+## Hi, I am Abhay
 
-![Image for Banner](https://media.licdn.com/dms/image/v2/D5616AQEsONB9tcHb2g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1736580327716?e=1756339200&v=beta&t=FfJ5lITaauIfNRqPLRCKOJOiSF83qq0UcO_N6MblYgg)
+I am a UI developer at HCLTech and a BCA student at Amity University Online. I am
+interested in UX, UI design, web development, community projects, and building
+software that is useful in the real world.
 
-Hello!👋 My name is Abhay. I am from Amity University Online pursuing Bachelors in Computers Applications.
+This repository is both my GitHub profile repository and the source for my
+personal portfolio website.
 
-I have a huge interest in ux and ui design as well coding! Currently studying react js, spring boot, graph ql and being working as a UI developer in HCLTech.
+### Portfolio
 
-I love to join different community and competition that involve creating something for the society!
-Skills:
-Community Management | Mobile and Web Development | Project Management
+- Live source: `src/App.tsx`, `src/styles.css`, `public/ppic.png`
+- Stack: React, TypeScript, and Vite
+- Deployment target: GitHub Pages through GitHub Actions
 
-- 🔭 I’m currently working on my own portfolio website.
-- 🌱 I’m currently learning Spring boot and React with Typescript
-- 👯 I’m looking to collaborate on open source
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about 🤔
-- 📫 How to reach me: gamil: hey.itzabhay@gmail.com | linkedin: itzabhay | ig: itxabh
-- 😄 Pronouns: He/him
-- ⚡ Fun fact: My Chess.com highest elo rating is 1127+ in blitz 😎
-  
+### Current Focus
+
+- React with TypeScript
+- Spring Boot
+- GraphQL
+- UI engineering and accessibility
+- Open source collaboration
+
+### Skills
+
+Community Management | Mobile and Web Development | Project Management | UX/UI
+Design
+
+### Contact
+
+- Email: [hey.itzabhay@gmail.com](mailto:hey.itzabhay@gmail.com)
+- LinkedIn: [itzabhay](https://www.linkedin.com/in/itzabhay)
+- Instagram: [itxabh](https://www.instagram.com/itxabh)
+- GitHub: [abhxydeploys](https://github.com/abhxydeploys)
+
+### GitHub Pages Setup
+
+In GitHub, open this repository's **Settings -> Pages** and set:
+
+- Source: **GitHub Actions**
+
+After pushing to `main`, the workflow in `.github/workflows/deploy.yml` builds
+the app and publishes the `dist` folder.
