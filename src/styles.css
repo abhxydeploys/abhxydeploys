@@ -306,7 +306,7 @@ h3 {
 .profile-panel::before {
   background:
     linear-gradient(135deg, rgba(214, 90, 49, 0.88), rgba(15, 118, 110, 0.86)),
-    url("/ppic.png") center / cover;
+    var(--profile-photo) center / cover;
   content: "";
   inset: 0;
   opacity: 0.25;
@@ -323,7 +323,6 @@ h3 {
   box-shadow: 0 14px 35px rgba(17, 24, 39, 0.22);
   height: 220px;
   object-fit: cover;
-  width: 180px;
   object-position: center top;
   width: 220px;
 }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { type CSSProperties, useMemo, useState } from "react";
 
 type Project = {
   id: string;
@@ -24,6 +24,7 @@ type ContactMethod = {
 };
 
 const navItems = ["Work", "Skills", "Timeline", "Contact"];
+const profileImage = `${import.meta.env.BASE_URL}ppic.png`;
 
 const projects: Project[] = [
   {
@@ -196,8 +197,12 @@ function App() {
             </div>
           </div>
 
-          <aside className="profile-panel" aria-label="Profile summary">
-            <img className="avatar" src="/ppic.png" alt="Abhay profile" />
+          <aside
+            className="profile-panel"
+            aria-label="Profile summary"
+            style={{ "--profile-photo": `url(${profileImage})` } as CSSProperties}
+          >
+            <img className="avatar" src={profileImage} alt="Abhay profile" />
             <div>
               <p className="panel-label">Current focus</p>
               <p>React, TypeScript, Spring Boot, and GraphQL.</p>
